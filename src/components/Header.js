@@ -18,9 +18,9 @@ const Header = () => {
 
             <div className='contact-info'>
                 <img src={call} alt="Call" />
-                <span>Call us: (+1) 123 4567 890</span>
+                <span>Call us: (+1) 709 6098 989</span>
                 <img src={email} alt="email" />
-                <span>Mail us: info@havnor.com</span>
+                <span>Mail us: vatsprajapati20@gmail.com</span>
             </div>
         </div>
     )
