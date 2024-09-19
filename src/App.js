@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import VehicleSearch from './components/VehicleSearch';
+import AboutCompany from './components/AboutCompany';
+import FuturedVehicle from './components/FuturedVehicle';
+import HowItWorks from './components/HowItWorks';
+import WeeklySpecial from './components/WeeklySpecial';
+import LatestNews from './components/LatestNews';
+import TestimonialSection from './components/TestimonialSection';
+import Footer from './components/Footer';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Navbar />
+      <HeroSection />
+      <VehicleSearch />
+      <AboutCompany />
+      <FuturedVehicle />
+      <HowItWorks />
+      <WeeklySpecial />
+      <LatestNews />
+      <TestimonialSection />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
