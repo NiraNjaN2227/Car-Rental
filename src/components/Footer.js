@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-copyright">
-                <p>© 2021 Autodrive. All rights reserved.</p>
+                <p>© 2024 Autodrive. All rights reserved.</p>
             </div>
         </footer>
     );
