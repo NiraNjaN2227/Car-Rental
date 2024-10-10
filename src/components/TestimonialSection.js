@@ -7,29 +7,29 @@ import group from '../assets/group.png';
 
 const testimonials = [
     {
-        name: 'Miss Alison Hudson',
+        name: 'Niranjan P',
         image: client1,
-        text: 'Pariatur eum repellendus. Quas est adipisci dicta. Repudiandae iure similique alias corrupti sapiente quo voluptatem sit hic.',
-        designation: 'nulla illum omnis',
+        text: "I had a fantastic experience renting the Hyundai Creta for my family trip! The car was in excellent condition, clean, and provided ample space for everyone. The staff was friendly and made the booking process smooth and hassle-free. I will definitely rent from them again!",
+        
     },
     {
-        name: 'Mr. Peyton Treutel',
+        name: 'Nithin N',
         image: client2,
-        text: 'Eum at veniam nihil ipsa. Adipisci et iste cumque sint sint totam iste doloribus. Adipisci et iste Alias aut asperiores voluptates delectus.',
-        designation: 'ipsa perferendis nobis',
+        text: "I rented the Mahindra Thar for a weekend getaway in the mountains, and it was the perfect choice! The off-road capabilities of the Thar made our adventure even more exciting. The service was prompt, and the team was very helpful. Highly recommend this rental service!",
+        
     },
     {
-        name: 'Dameon Harvey',
+        name: 'Hema S',
         image: client3,
-        text: 'Placeat nostrum nihil accusamus qui ea totam. nihil accusamus qui ea totam Ad quaerat est fiat ur est qui dicta laborum. Praentium.',
-        designation: 'sapiente sequuntur',
+        text: "The Maruti Suzuki Swift I rented was not only stylish but also fuel-efficient, making it great for my city commute. The entire process from booking to return was seamless, and the customer support was excellent. I’m really impressed and will be back for my next rental!",
+        
     }
 ];
 
 const TestimonialSection = () => {
     return (
         <section className="testimonial-section">
-            <h2 className="testimonial-heading">Testimonial</h2>
+            <h2 className="testimonial-heading">Reviews</h2>
             <h3 className="client-heading">What Our Clients Say</h3>
             <div className="group-image-container">
                 <img src={group} alt="Group" className="group-img" />

@@ -12,15 +12,15 @@ const WeeklySpecial = () => {
             <h2 className="section-title">Weekly Special</h2>
             <div className="car-grid">
                 <div className="car-card card1">
-                    <img src={bmw1} alt="BMW 1 Series M Coupe" />
+                    <img src={bmw1} alt="Maruti Fronx" height="300px"/>
                     <h3>BMW 1 Series M Coupe</h3>
                 </div>
                 <div className="car-card card2">
-                    <img src={audi} alt="McLaren 650S" />
+                    <img src={audi} alt="Mahindra Xuv700" height="600px" width="500px" />
                     <h3>McLaren 650S</h3>
                 </div>
                 <div className="car-card card3">
-                    <img src={benz} alt="Mercedes Benz C Class" />
+                    <img src={benz} alt="Mercedes Benz C Class"  />
                     <h3>Mercedes Benz C Class</h3>
                 </div>
                 <div className="car-card card4">

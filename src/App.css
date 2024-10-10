@@ -1,3 +1,43 @@
+.book-button {
+  background-color: hsl(122, 39%, 49%);
+  color: white !important;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.book-button:hover {
+  background-color: #45a049;
+}
+
+.vehicle-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.vehicle-details {
+  margin-top: 10px;
+}
+
+.price-tag {
+  margin-top: 10px;
+}
+
+
+
+
+
+
 /* header section */
 .header {
   display: flex;
@@ -96,6 +136,23 @@
 }
 
 /* navbar section */
+
+
+.navbar-menu a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Ensures the color stays the same as the surrounding text */
+  cursor: pointer; /* Makes the cursor a pointer, like a clickable button */
+}
+
+.navbar-menu a:hover {
+  color:#052046; /* Optional: Add hover effect if you want */
+}
+
+.navbar-menu li {
+  display: inline-block; /* Ensure the list items are displayed in a row */
+  margin: 0 15px; /* Adds space between each item */
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

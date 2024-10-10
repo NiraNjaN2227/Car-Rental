@@ -16,14 +16,30 @@ const App = () => {
     <div>
       <Header />
       <Navbar />
-      <HeroSection />
-      <VehicleSearch />
-      <AboutCompany />
-      <FuturedVehicle />
-      <HowItWorks />
-      <WeeklySpecial />
-      <LatestNews />
-      <TestimonialSection />
+      <section id="home">
+        <HeroSection />
+      </section>
+      <section id="vehicle-search">
+        <VehicleSearch />
+      </section>
+      <section id="about">
+        <AboutCompany />
+      </section>
+      <section id="products">
+        <FuturedVehicle />
+      </section>
+      <section id="how-it-works">
+        <HowItWorks />
+      </section>
+      <section id="gallery">
+        <WeeklySpecial />
+      </section>
+      <section id="latest-news">
+        <LatestNews />
+      </section>
+      <section id="testimonials">
+        <TestimonialSection />
+      </section>
       <Footer />
     </div>
   );

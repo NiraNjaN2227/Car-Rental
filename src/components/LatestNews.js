@@ -14,11 +14,12 @@ const LatestNews = () => {
                     <img src={audi2} alt="Audi" />
                 </div>
                 <div className="news-content">
-                    <span className="news-date">27 Dec 2017</span>
-                    <h3 className="news-heading">Maxime doloribus dolor amet officiis veritatis. Nesciunt consequatur quia et.</h3>
+                    <span className="news-date">27 Aug 2024</span>
+                    <h3 className="news-heading">Mahindra Thar 2022</h3>
                     <p className="news-text">
-                        Cupiditate distinctio at animi. Nulla asperiores repellendus. Architecto doloremque omnis deleniti dolorem molestiae nam necessitatibus quasi non.
-                    </p>
+                    Perfect for off-road adventures! The Thar is ready to hit the trails.Available to rent now! Enjoy the perfect blend of style and performance on your journeys.
+
+</p>
                 </div>
             </div>
 
@@ -26,17 +27,17 @@ const LatestNews = () => {
                 <div className="news-card">
                     <img src={lembo} alt="BMW" />
                     <div className="news-info">
-                        <span className="news-date">20 Jan 2017</span>
-                        <h4 className="news-heading">Labore nam qui qui atque. Aut beatae est numquam.</h4>
-                        <p className="news-text">Quaerat et consequatur repudiandae eveniet necessitatibus. Corrupti eligendi rem et occaecati corrupti.</p>
+                        <span className="news-date">20 Aug 2024</span>
+                        <h4 className="news-heading">Honda City 2023</h4>
+                        <p className="news-text">Stylish and spacious, the City is available for your rental needs.</p>
                     </div>
                 </div>
                 <div className="news-card">
                     <img src={merc2} alt="Red Car" />
                     <div className="news-info">
-                        <span className="news-date">03 Dec 2017</span>
-                        <h4 className="news-heading">Dolorum eos dolor est animi omnis eum dicta. Ea.</h4>
-                        <p className="news-text">Ut doloribus est aliquid et. Culpa molestiae tempora quaerat ut. Sed sit fugiat at quae beatae est ut est.</p>
+                        <span className="news-date">03 Oct 2024</span>
+                        <h4 className="news-heading">Hyundai Creta 2022</h4>
+                        <p className="news-text">Ready for your next adventure! Rent this popular SUV today.</p>
                     </div>
                 </div>
             </div>

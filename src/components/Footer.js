@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-logo">
                     <img src={logo} alt="Auto Car" />
-                    <p>Dolor voluptates sunt molestias quia est adipisci. Officiis quae consequuntur nam tempora.</p>
+                    <p>The journey may have its challenges, but the right car can transform any trip into a delightful adventure. Embrace the road ahead with us!</p>
 
                     <div className="social-icon-media">
                         <img src={facebook} alt="Facebook" />

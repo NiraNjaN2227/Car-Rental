@@ -9,8 +9,8 @@ const HeroSection = () => {
                     <div className="hero-title-bar"></div>
                     <h4 className="hero-subtitle">Find Your Dream</h4>
                 </div>
-                <h1 className="hero-heading">Let's Finance Your Dream Car</h1>
-                <p className="hero-description">Non dolor explicabo illo nam corrupti quis atque voluptatem. Dolorem dolores aperiam maxime ut et earum. Nihil aut aspernatur.</p>
+                <h1 className="hero-heading">Let's Rent Your Dream Car</h1>
+                <p className="hero-description">Unlock the freedom of the open road with our rental cars, where every drive is an adventure waiting to happen.</p>
                 <button className="hero-button">Learn More</button>
             </div>
             <div className="hero-image">

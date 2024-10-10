@@ -14,8 +14,8 @@ const HowItWorks = () => {
             <div className="steps-row">
                 <div className="step">
                     <img src={search} alt="Search Car" />
-                    <h3>Search Your Dream Car</h3>
-                    <p>Et aut omnis eligendi autem nobis id aliquid. Repellat est expedita facere.</p>
+                    <h3>Rent Your Dream Car</h3>
+                    <p> We ensure that you have the best options available for your journey.</p>
                 </div>
 
                 <div className="arrow">
@@ -24,8 +24,8 @@ const HowItWorks = () => {
 
                 <div className="step">
                     <img src={car} alt="Test Drive" />
-                    <h3>Take a Test Drive</h3>
-                    <p>Sed et voluptate maxime perferendis cum occaecati.</p>
+                    <h3>Meet the car owner in person</h3>
+                    <p>Check the car and its engine and later bargain the pricing.</p>
                 </div>
 
                 <div className="arrow">
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                 <div className="step">
                     <img src={book} alt="Book Car" />
                     <h3>Book Your Car</h3>
-                    <p>At deleniti tenetur. Placeat consequuntur provident sed.</p>
+                    <p>Confirm your car booking and fix the return date.</p>
                 </div>
 
                 <div className="arrow">
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                 <div className="step">
                     <img src={payment} alt="Payment" />
                     <h3>Payment & Receive</h3>
-                    <p>Dolorem necessitatibus dicta ipsum sit. Beatae eos placeat.</p>
+                    <p>Full payment should be paid initally. </p>
                 </div>
             </div>
         </div>
